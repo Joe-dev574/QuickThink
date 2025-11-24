@@ -11,7 +11,7 @@ import SwiftUI
 struct QuickThinkApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QTGameView()
         }
     }
 }
