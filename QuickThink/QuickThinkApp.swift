@@ -11,7 +11,9 @@ import SwiftUI
 struct QuickThinkApp: App {
     var body: some Scene {
         WindowGroup {
-            QTGameView()
+            let emojis = ["🚀", "🌕", "🚗","🦄","🌈","🌎"]
+            let game = ThinkFastGame(emojis: emojis)
+            QTGameView(viewModel: game)
         }
     }
 }
